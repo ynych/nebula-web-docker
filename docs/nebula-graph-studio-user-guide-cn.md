@@ -100,7 +100,7 @@ CREATE EDGE serve (start_year int, end_year int);
 
 在图 schema 创建完成后，可以导入需要的数据。在本示例中我们准备了两个点数据文件分别是 `player.csv`、`team.csv`，以及两个边文件分别是 `follow.csv`、`serve.csv`。
 
-**注意**：目前仅支持 CSV 格式的文件数据导入。
+**注意**：目前仅支持无 header 的 CSV 文件数据导入。
 
 1. 单击**导入**选项卡，进入**初始化**，在 **Spaces** 下拉列表中选择需要的图空间，此处选择 `NBA`。单击**下一步**。
 
