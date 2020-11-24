@@ -4,7 +4,7 @@ Nebula Graph Studio (Studio for short) is a web-based visualization tool for Neb
 
 ![Screenshot of Studio user interface](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-025.png "Studio user interface")
 
-## Start Studio
+## Start Docker-based Studio
 
 To start Docker-based Studio for Nebula Graph v1.x or v2.0.0, run these commands:
 

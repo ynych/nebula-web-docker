@@ -4,7 +4,7 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
 
 ![Studio 界面截图](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-024.png "Studio 界面一览")
 
-## 部署 Studio
+## 部署 Docker 版 Studio
 
 运行以下命令部署适用于 Nebula Graph 1.x 或者 2.0.0 的 Docker 版 Studio：
 
@@ -47,7 +47,7 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
     Creating docker_nginx_1    ... done
     ```
 
-在 Chrome 浏览器中，输入 `localhost:7001` 访问 Studio。如果在浏览器窗口中您能看到以下登录界面，表示您已经成功部署并启动 Studio。
+在 Chrome 浏览器中，输入 `localhost:7001` 访问 Studio。如果在浏览器窗口中看到以下登录界面，表示您已经成功部署并启动 Studio。
 
 ![Nebula Graph Studio 登录界面](https://docs-cdn.nebula-graph.com.cn/nebula-studio-docs/st-ug-001.png "Nebula Graph Studio 登录界面")
 
