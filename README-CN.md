@@ -14,25 +14,17 @@ Nebula Graph Studio（简称 Studio）是一款可以通过 Web 访问的图数�
     git clone git@github.com:vesoft-inc/nebula-web-docker.git
     ```
 
-2. （可选）如果要部署适用于 Nebula Graph v1.x 的 Studio，则切换到 `nebula-web-docker` 目录。
+2. 切换目录：
+   - 如果要部署适用于 Nebula Graph v1.x 的 Studio，运行 `cd nebula-web-docker`。
+   - 如果要部署适用于 Nebula Graph v2.0.0 的 Studio，运行 `cd nebula-web-docker/v2`。
 
-    ```bash
-    cd nebula-web-docker
-    ```
-
-3. （可选）如果要部署适用于 Nebula Graph v2.0.0 的 Studio，则切换到 `nebula-web-docker/v2` 目录。
-
-    ```bash
-    cd nebula-web-docker/v2
-    ```
-
-4. 拉取 Studio 的 Docker 镜像。
+3. 拉取 Studio 的 Docker 镜像。
 
     ```bash
     docker-compose pull
     ```
 
-5. 构建并启动 Studio。其中，`-d` 表示在后台运行容器。
+4. 构建并启动 Studio。其中，`-d` 表示在后台运行容器。
 
     ```bash
     docker-compose up -d
